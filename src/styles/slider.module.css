@@ -1,0 +1,64 @@
+.main_slider {
+  /* background:url(/background/texture1.jpg); */
+  background-image: linear-gradient(
+      to bottom,
+      rgb(255 255 255 / 52%),
+      rgb(215 215 215 / 73%)
+    ),
+    url(/background/texture1.jpg);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+.slider_head {
+  padding: 3rem 0rem;
+}
+.slider_head h3 {
+  font-size: 2rem;
+}
+.slider_wrap {
+  display: flex !important;
+  justify-content: space-evenly;
+}
+.slider_wrap img {
+    width: 300px;
+    height: 280px
+
+}
+.slider_content {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: -11%;
+}
+.slider_content h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.slider_description {
+  padding-top: 1rem;
+  color: rgb(82, 79, 79);
+}
+.slider_description2 {
+  padding: 1rem 0rem;
+  color: rgb(82, 79, 79);
+}
+.slider_price {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #8d8f00;
+}
+.slider_content button {
+  margin-top: 30px;
+  width: 10vw;
+  border: 2px solid #8d8f00;
+  padding: 0.5rem 2rem;
+  color: #8d8f00;
+}
+.slider_content button:hover {
+  background-color: #8d8f00;
+  color: white;
+}
